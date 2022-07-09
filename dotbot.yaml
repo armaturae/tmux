@@ -1,0 +1,12 @@
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.tmux.conf:  tmux.conf
+    ~/.tmux/airline-dracula.tmux: airline-dracula.tmux
+
+- create:
+    - ~/.tmux/
